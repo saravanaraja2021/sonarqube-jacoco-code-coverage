@@ -24,7 +24,7 @@ sonarqube {
 
 jacocoTestReport {
     reports {
-        xml.required = true
+        xml.required = false
     }
 }
 test.finalizedBy jacocoTestReport
